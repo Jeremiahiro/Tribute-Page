@@ -1,0 +1,53 @@
+body{
+  text-align: center;
+  min-width: 250px;
+  color: #333;
+  display: block;
+  margin: 0;
+  height: 100%;
+  
+}
+#main{
+  background: lightgray;
+  margin: 30px auto;
+  padding: 15px;
+  border: 0px solid;
+  border-radius: 5px;
+  display: block;
+}
+#text1{
+  display: block;
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: Capitalize;
+}
+#img-div{
+  margin: -5px;
+  margin-top: 15px;
+  width: 100%;
+  border: 8px solid white;
+  background: white;
+}
+img{
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  width: 80%;
+}
+ul{
+/*   max-width: 600px; */
+  margin: auto;
+  text-align: left;
+  width: 600px;
+}
+li{
+  display: list;
+  margin: 8px;
+}
+#quote{
+  font-style: italic;
+}
+a{
+  cursor: pointer;
+}
